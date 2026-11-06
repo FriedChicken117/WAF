@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5080:8080"
+  
